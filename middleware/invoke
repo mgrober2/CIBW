@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -C "start_jupyter -t -T @tool cibw.ipynb" -t graft \
+                         -u anaconda3-5.1
